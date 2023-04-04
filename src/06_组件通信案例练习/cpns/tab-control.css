@@ -1,0 +1,17 @@
+.banner {
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  padding: 5px;
+}
+
+.active {
+  font-size: 16px;
+  color: red;
+  box-sizing: border-box;
+  border-bottom: 3px solid red;
+}
