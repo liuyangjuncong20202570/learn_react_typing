@@ -9,7 +9,16 @@ import ReactDOM from 'react-dom/client'
 // import App from './08_组件间的作用域插槽/App'
 // import App from './09_context上下文数据共享使用/App'
 // import App from './10_非父子组件传值（事件总线）/App'
-import App from './11_setState的多种用法/App'
+// import App from './11_setState的多种用法/App'
+// import App from './12_react组件性能优化/App'
+// import App from './13_purecomponent使用/App'
+// import App from './14_三种Ref获取元素DOM方法/App'
+// import App from './14_获取DOM与获取组件实例/App'
+// import App from './15_受控和非受控组件/App'
+// import App from './16_React中的高阶组件/01_高阶组件的定义与使用'
+// import App from './16_React中的高阶组件/02_高阶组件应用一：注入props'
+// import App from './16_React中的高阶组件/03_高阶组件与context对象相结合'
+import App from './16_React中的高阶组件/04_登录鉴权'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(<App name="LYJC" />)
