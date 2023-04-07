@@ -1,10 +1,8 @@
-import Cart from '../cpns/Cart'
-
-function loginAuth(wrapperComponent) {
+function loginAuth(WrapperComponent) {
   return (props) => {
     const token = localStorage.getItem('token')
     if (token) {
-      return <Cart {...props} />
+      return <WrapperComponent {...props} />
     } else {
       return <h1>暂未登录，请快去登录吧</h1>
     }
